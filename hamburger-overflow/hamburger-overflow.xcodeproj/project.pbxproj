@@ -10,11 +10,13 @@
 		FAFB68021A92957C00E06D06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB68011A92957C00E06D06 /* main.m */; };
 		FAFB68051A92957C00E06D06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB68041A92957C00E06D06 /* AppDelegate.m */; };
 		FAFB68081A92957C00E06D06 /* hamburger_overflow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAFB68061A92957C00E06D06 /* hamburger_overflow.xcdatamodeld */; };
-		FAFB680B1A92957C00E06D06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB680A1A92957C00E06D06 /* ViewController.m */; };
 		FAFB680E1A92957C00E06D06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFB680C1A92957C00E06D06 /* Main.storyboard */; };
 		FAFB68101A92957C00E06D06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFB680F1A92957C00E06D06 /* Images.xcassets */; };
 		FAFB68131A92957C00E06D06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAFB68111A92957C00E06D06 /* LaunchScreen.xib */; };
 		FAFB681F1A92957C00E06D06 /* hamburger_overflowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB681E1A92957C00E06D06 /* hamburger_overflowTests.m */; };
+		FAFB682D1A929BF100E06D06 /* HamburgerContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB682C1A929BF100E06D06 /* HamburgerContainerController.m */; };
+		FAFB68301A92B2FD00E06D06 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB682F1A92B2FD00E06D06 /* MenuViewController.m */; };
+		FAFB68381A92B7E600E06D06 /* WebOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB68371A92B7E600E06D06 /* WebOAuthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +36,18 @@
 		FAFB68031A92957C00E06D06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAFB68041A92957C00E06D06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FAFB68071A92957C00E06D06 /* hamburger_overflow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hamburger_overflow.xcdatamodel; sourceTree = "<group>"; };
-		FAFB68091A92957C00E06D06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FAFB680A1A92957C00E06D06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FAFB680D1A92957C00E06D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAFB680F1A92957C00E06D06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FAFB68121A92957C00E06D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FAFB68181A92957C00E06D06 /* hamburger-overflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hamburger-overflowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFB681D1A92957C00E06D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAFB681E1A92957C00E06D06 /* hamburger_overflowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hamburger_overflowTests.m; sourceTree = "<group>"; };
+		FAFB682B1A929BF100E06D06 /* HamburgerContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HamburgerContainerController.h; sourceTree = "<group>"; };
+		FAFB682C1A929BF100E06D06 /* HamburgerContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HamburgerContainerController.m; sourceTree = "<group>"; };
+		FAFB682E1A92B2FD00E06D06 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		FAFB682F1A92B2FD00E06D06 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		FAFB68361A92B7E600E06D06 /* WebOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebOAuthViewController.h; sourceTree = "<group>"; };
+		FAFB68371A92B7E600E06D06 /* WebOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebOAuthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +89,12 @@
 		FAFB67FE1A92957C00E06D06 /* hamburger-overflow */ = {
 			isa = PBXGroup;
 			children = (
+				FAFB682A1A929BC800E06D06 /* View */,
+				FAFB68291A929BC200E06D06 /* Model */,
+				FAFB68281A929BBA00E06D06 /* Controller */,
 				FAFB68031A92957C00E06D06 /* AppDelegate.h */,
 				FAFB68041A92957C00E06D06 /* AppDelegate.m */,
-				FAFB68091A92957C00E06D06 /* ViewController.h */,
-				FAFB680A1A92957C00E06D06 /* ViewController.m */,
 				FAFB680C1A92957C00E06D06 /* Main.storyboard */,
-				FAFB680F1A92957C00E06D06 /* Images.xcassets */,
 				FAFB68111A92957C00E06D06 /* LaunchScreen.xib */,
 				FAFB68061A92957C00E06D06 /* hamburger_overflow.xcdatamodeld */,
 				FAFB67FF1A92957C00E06D06 /* Supporting Files */,
@@ -120,6 +126,34 @@
 				FAFB681D1A92957C00E06D06 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAFB68281A929BBA00E06D06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB682B1A929BF100E06D06 /* HamburgerContainerController.h */,
+				FAFB682C1A929BF100E06D06 /* HamburgerContainerController.m */,
+				FAFB682E1A92B2FD00E06D06 /* MenuViewController.h */,
+				FAFB682F1A92B2FD00E06D06 /* MenuViewController.m */,
+				FAFB68361A92B7E600E06D06 /* WebOAuthViewController.h */,
+				FAFB68371A92B7E600E06D06 /* WebOAuthViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FAFB68291A929BC200E06D06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FAFB682A1A929BC800E06D06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB680F1A92957C00E06D06 /* Images.xcassets */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,9 +257,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAFB68051A92957C00E06D06 /* AppDelegate.m in Sources */,
+				FAFB682D1A929BF100E06D06 /* HamburgerContainerController.m in Sources */,
 				FAFB68081A92957C00E06D06 /* hamburger_overflow.xcdatamodeld in Sources */,
-				FAFB680B1A92957C00E06D06 /* ViewController.m in Sources */,
 				FAFB68021A92957C00E06D06 /* main.m in Sources */,
+				FAFB68301A92B2FD00E06D06 /* MenuViewController.m in Sources */,
+				FAFB68381A92B7E600E06D06 /* WebOAuthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
