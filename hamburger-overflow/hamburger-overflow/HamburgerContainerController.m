@@ -42,7 +42,7 @@
     // the pan gesture should be available from the start
     [self.topVC.view addGestureRecognizer:self.panGestureRecognizer];
 }
-// what happens when you smash that burger
+// what happens when you smash that burger: the menu slides open or closed
 - (void) burgerButtonPress{
     // no double smashing the burger
     self.burgerButton.userInteractionEnabled = false;
@@ -54,7 +54,7 @@
         weakSelf.topVC.view.center = CGPointMake(weakSelf.topVC.view.center.x + (weakSelf.view.frame.size.width*0.75), weakSelf.topVC.view.center.y);
         
     } completion:^(BOOL finished) {
-        //re-enable the burger
+        //re-enable the burger when animation is done
         [weakSelf.topVC.view addGestureRecognizer: weakSelf.tapGestureRecognizer];
     }];
 }

@@ -22,12 +22,14 @@
     WKWebView *webView = [[WKWebView alloc] initWithFrame:self.view.frame];
     [self.view addSubview:webView];
     webView.navigationDelegate = self;
+    // integrate the appID in our request URL
     NSString *urlString = [NSString stringWithFormat:@"https://stackexchange.com/oauth/dialog?client_id=%@&scope=no_expiry&redirect_uri=https://stackexchange.com/oauth/login_success", self.appID];
     
     NSURL *url = [NSURL URLWithString:urlString];
     [webView loadRequest:[NSURLRequest requestWithURL:url]];
 }
 
+// while this method does not return anything, it is actually a network call returning URLs from StackOverflow's implicit OAuth
 -(void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler{
     // create the requestion
     NSURLRequest *request = navigationAction.request;
@@ -40,7 +42,7 @@
         NSArray *components = [[url description] componentsSeparatedByString:@"="];
         NSString *token = components.lastObject;
         NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-        
+        // save the token so the user does not have to go through the process again
         [userDefaults setObject:token forKey:@"token"];
         [userDefaults synchronize];
         

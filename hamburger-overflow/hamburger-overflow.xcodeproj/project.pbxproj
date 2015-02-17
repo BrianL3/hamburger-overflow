@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA471AE81A93BC8500F57A8E /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA471AE71A93BC8500F57A8E /* NetworkController.m */; };
+		FA471AEB1A93BE0100F57A8E /* SearchQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA471AEA1A93BE0100F57A8E /* SearchQuestionsViewController.m */; };
+		FA471AEE1A93C3C400F57A8E /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = FA471AED1A93C3C400F57A8E /* Question.m */; };
+		FA471AF11A93FA3800F57A8E /* QuestionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA471AF01A93FA3800F57A8E /* QuestionViewCell.m */; };
 		FAFB68021A92957C00E06D06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB68011A92957C00E06D06 /* main.m */; };
 		FAFB68051A92957C00E06D06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB68041A92957C00E06D06 /* AppDelegate.m */; };
 		FAFB68081A92957C00E06D06 /* hamburger_overflow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAFB68061A92957C00E06D06 /* hamburger_overflow.xcdatamodeld */; };
@@ -30,6 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA471AE61A93BC8500F57A8E /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
+		FA471AE71A93BC8500F57A8E /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
+		FA471AE91A93BE0100F57A8E /* SearchQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchQuestionsViewController.h; sourceTree = "<group>"; };
+		FA471AEA1A93BE0100F57A8E /* SearchQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchQuestionsViewController.m; sourceTree = "<group>"; };
+		FA471AEC1A93C3C400F57A8E /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		FA471AED1A93C3C400F57A8E /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		FA471AEF1A93FA3800F57A8E /* QuestionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewCell.h; sourceTree = "<group>"; };
+		FA471AF01A93FA3800F57A8E /* QuestionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewCell.m; sourceTree = "<group>"; };
 		FAFB67FC1A92957C00E06D06 /* hamburger-overflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hamburger-overflow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFB68001A92957C00E06D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAFB68011A92957C00E06D06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -137,6 +149,8 @@
 				FAFB682F1A92B2FD00E06D06 /* MenuViewController.m */,
 				FAFB68361A92B7E600E06D06 /* WebOAuthViewController.h */,
 				FAFB68371A92B7E600E06D06 /* WebOAuthViewController.m */,
+				FA471AE91A93BE0100F57A8E /* SearchQuestionsViewController.h */,
+				FA471AEA1A93BE0100F57A8E /* SearchQuestionsViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -144,6 +158,10 @@
 		FAFB68291A929BC200E06D06 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FA471AE61A93BC8500F57A8E /* NetworkController.h */,
+				FA471AE71A93BC8500F57A8E /* NetworkController.m */,
+				FA471AEC1A93C3C400F57A8E /* Question.h */,
+				FA471AED1A93C3C400F57A8E /* Question.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -152,6 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				FAFB680F1A92957C00E06D06 /* Images.xcassets */,
+				FA471AEF1A93FA3800F57A8E /* QuestionViewCell.h */,
+				FA471AF01A93FA3800F57A8E /* QuestionViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -256,10 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA471AF11A93FA3800F57A8E /* QuestionViewCell.m in Sources */,
 				FAFB68051A92957C00E06D06 /* AppDelegate.m in Sources */,
 				FAFB682D1A929BF100E06D06 /* HamburgerContainerController.m in Sources */,
+				FA471AEB1A93BE0100F57A8E /* SearchQuestionsViewController.m in Sources */,
 				FAFB68081A92957C00E06D06 /* hamburger_overflow.xcdatamodeld in Sources */,
 				FAFB68021A92957C00E06D06 /* main.m in Sources */,
+				FA471AE81A93BC8500F57A8E /* NetworkController.m in Sources */,
+				FA471AEE1A93C3C400F57A8E /* Question.m in Sources */,
 				FAFB68301A92B2FD00E06D06 /* MenuViewController.m in Sources */,
 				FAFB68381A92B7E600E06D06 /* WebOAuthViewController.m in Sources */,
 			);
@@ -454,6 +478,7 @@
 				FAFB68241A92957C00E06D06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAFB68251A92957C00E06D06 /* Build configuration list for PBXNativeTarget "hamburger-overflowTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +487,7 @@
 				FAFB68271A92957C00E06D06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
